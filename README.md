@@ -48,4 +48,4 @@ Se precisar de ajustes para requisitos específicos do seu cluster Kubernetes ou
 docker container rm -f dica
 docker build -t dica:1.0.0 .
 docker run -d -p 8080:80 --name dica eduhass/dica:1.0.0
-```
+```# Testing push access
